@@ -1,7 +1,7 @@
 #include <new>
 
 namespace std { // NOLINT(cert-dcl58-cpp)
-    const std::nothrow_t nothrow {};
+    [[maybe_unused]] const std::nothrow_t nothrow {};
 }
 
 #include "../kernel/types.hpp"
