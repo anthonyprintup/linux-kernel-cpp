@@ -1,0 +1,5 @@
+if (CMAKE_SYSTEM_PROCESSOR STREQUAL "x86" OR CMAKE_SYSTEM_PROCESSOR STREQUAL "x86_64")
+    set(PROCESSOR_ARCHITECTURE "x86")
+else()
+    status(FATAL_ERROR "Unsupported platform architecture.")
+endif()
