@@ -19,7 +19,8 @@ By manually performing the required build steps we're able to write C++ and run 
 As a C++ enthusiast I found it difficult to use C to write kernel modules, so I decided to add some basic C++ support to the kernel using CMake.
 
 ## Supported features:
-- [ ] exceptions
-- [ ] RTTI
+- [ ] exceptions (TODO)
+- [ ] RTTI (TODO)
 - [x] dynamic initializers
 - [x] operator new/delete
+- [ ] kernel headers in C++ code (TODO)
