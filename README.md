@@ -1,5 +1,5 @@
 ## What?
-This project is an attempt to add basic C++ support to the linux kernel.
+This project is an attempt to add basic C++ support to the Linux kernel.
 
 ## How?
 By manually performing the required build steps we're able to write C++ and run our code in the kernel.
