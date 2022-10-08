@@ -8,7 +8,7 @@ This project is an attempt to add basic C++ support to the Linux kernel.
 By manually performing the required build steps we're able to write C++ and run our code in the kernel.
 
 ### Build Steps (CMakeLists.txt):
-- Add compiler options (`nostdlib`, `fno-exceptions`, `fno-rtti`, ...),
+- Add compiler options (`fno-exceptions`, `fno-rtti`, ...),
 - add preprocessor definitions (`__KERNEL__`, `MODULE`),
 - determine the platform that's being used (kernel paths change between distros),
 - locate the kernel include headers and copy them to the local project (required when modifying headers for C++ compatibility),

@@ -1,6 +1,4 @@
 add_compile_options(
-        # No STD library
-        -nostdlib
         # Disable exceptions
         -fno-exceptions
         # Disable RTTI
