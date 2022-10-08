@@ -1,11 +1,11 @@
-extern "C" int _printk(const char *fmt, ...);
+#include "kernel/printk.hpp"
 
 int value {};
 [[gnu::used]] struct A {
     A() noexcept {
-        _printk("A::A() %i\n", value++);
+        kernel::print("A::A() %i\n", value++);
     }
     ~A() {
-        _printk("A::~A() %i\n", --value);
+        kernel::print("A::~A() %i\n", --value);
     }
 } a_instance1 {}, a_instance2 {};
